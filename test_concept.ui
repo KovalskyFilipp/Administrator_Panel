@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1224</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>22</width>
+    <height>22</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>0</y>
+      <width>1241</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>800</width>
+      <height>461</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>800</width>
+      <height>461</height>
+     </size>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QPushButton" name="pushButton_20">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>320</y>
+        <width>228</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Брест</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>111</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_33">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>461</y>
+        <width>228</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Выход</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>757</x>
+        <y>179</y>
+        <width>227</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Zabbix</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>111</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_19">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>179</y>
+        <width>228</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Bacula</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>111</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_34">
+      <property name="geometry">
+       <rect>
+        <x>757</x>
+        <y>461</y>
+        <width>227</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Настройки</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>757</x>
+        <y>320</y>
+        <width>227</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Генератор 
+ паролей</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>111</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>523</x>
+        <y>179</y>
+        <width>228</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SIEM Комрад</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>111</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>274</x>
+        <y>179</y>
+        <width>243</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ALD</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>111</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>274</x>
+        <y>320</y>
+        <width>243</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Гарантированное  
+ стирание</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>111</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_18">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>179</y>
+        <width>228</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="toolTipDuration">
+       <number>-1</number>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>KSC</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../.designer/backup/Screenshot_20190902_181407.png</normaloff>../../../.designer/backup/Screenshot_20190902_181407.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>120</width>
+        <height>91</height>
+       </size>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>292</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_17">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>320</y>
+        <width>228</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>DrWeb</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>111</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>523</x>
+        <y>320</y>
+        <width>228</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>JaCarta</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</normaloff>../../../.designer/Desktop/Screenshot_20190902_181407.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>111</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>80</y>
+        <width>542</width>
+        <height>196</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>0.0.0.0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>0.0.0.0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Изменить</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>IP-адрес сервера KSC:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="text">
+          <string>Изменить</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>IP-адрес сервера SIEM Комрад:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>0.0.0.0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>IP-адрес сервера ALD:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QPushButton" name="pushButton_9">
+         <property name="text">
+          <string>Изменить</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>IP-адрес сервера Zabbix:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>0.0.0.0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QPushButton" name="pushButton_10">
+         <property name="text">
+          <string>Изменить</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>IP-адрес сервера DrWeb:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>0.0.0.0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="QPushButton" name="pushButton_11">
+         <property name="text">
+          <string>Изменить</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>400</y>
+        <width>171</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Сохранить изменения</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>400</y>
+        <width>88</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>Открытие второго окна</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
